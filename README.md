@@ -19,12 +19,12 @@
 4. در Environment Variables مقادیر زیر را وارد کنید:
 
 ```env
-BOT_TOKEN=توکن_جدید_ربات
+BOT_TOKEN=8833875033:AAG9__9MvK88QJPOm7Jmt7OqE6_HUBXHwDQ
 ADMIN_ID=8309404353
-DATABASE_URL=آدرس_PostgreSQL
-CARD_NUMBER=شماره_کارت
-CARD_HOLDER=نام_دارنده_کارت
-SUPPORT_USERNAME=@نام_پشتیبانی
+DATABASE_URL=https://github.com/nassicatbessir-cell/sales-config-bot
+CARD_NUMBER=6219-8614-6672-3300
+CARD_HOLDER=‏[ بنام اسدی ‏]
+SUPPORT_USERNAME=@myTetritBot
 ```
 
 5. Start Command را `npm start` قرار دهید.
