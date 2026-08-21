@@ -14,22 +14,22 @@
 ## راه‌اندازی روی Render
 
 1. این مخزن را به Render متصل کنید.
-2. یک **PostgreSQL** بسازید و مقدار `Internal Database URL` آن را برای `DATABASE_URL` قرار دهید.
+2. یک **PostgreSQL** بسازید و مقدار **Internal Database URL** آن را برای `DATABASE_URL` قرار دهید.
 3. یک **Background Worker** از این مخزن بسازید (یا از `render.yaml` استفاده کنید).
-4. در Environment Variables مقادیر زیر را وارد کنید:
+4. در Environment Variables مقادیر واقعی زیر را فقط در Render وارد کنید:
 
 ```env
-BOT_TOKEN=8833875033:AAG9__9MvK88QJPOm7Jmt7OqE6_HUBXHwDQ
+BOT_TOKEN=توکن_جدید_ربات
 ADMIN_ID=8309404353
-DATABASE_URL=https://github.com/nassicatbessir-cell/sales-config-bot
-CARD_NUMBER=6219-8614-6672-3300
-CARD_HOLDER=‏[ بنام اسدی ‏]
-SUPPORT_USERNAME=@myTetritBot
+DATABASE_URL=آدرس_اتصال_PostgreSQL
+CARD_NUMBER=شماره_کارت
+CARD_HOLDER=نام_دارنده_کارت
+SUPPORT_USERNAME=@نام_پشتیبانی
 ```
 
 5. Start Command را `npm start` قرار دهید.
 
-> توکن یا اطلاعات بانکی را هرگز در فایل‌های مخزن وارد و commit نکنید. توکنی که قبلاً در گفتگو نمایش داده شده باید از طریق BotFather لغو و با توکن تازه جایگزین شود.
+> هیچ مقدار واقعی را در GitHub، README یا فایل‌های commit‌شده وارد نکنید. هر توکنی که قبلاً در مخزن یا گفتگو نوشته شده باید در BotFather لغو و با توکن جدید جایگزین شود.
 
 ## گردش سفارش
 
